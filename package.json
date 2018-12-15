@@ -1,0 +1,38 @@
+{
+  "name": "placement-admin-panel",
+  "version": "1.0.0",
+  "description": "admin panel for placement cell",
+  "main": "admin-panel.js",
+  "scripts": {
+    "test": "Error: no test specified",
+    "start": "node admin-panel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/anushkanagar/placement-admin-panel.git"
+  },
+  "keywords": [
+    "placement",
+    "admin",
+    "panel"
+  ],
+  "author": "Anushka Nagar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/anushkanagar/placement-admin-panel/issues"
+  },
+  "homepage": "https://gitlab.com/anushkanagar/placement-admin-panel#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-flash": "0.0.2",
+    "express-layout": "^0.1.0",
+    "express-session": "^1.15.6",
+    "jquery": "^3.3.1",
+    "mssql": "^4.2.2",
+    "path": "^0.12.7",
+    "tedious": "^2.6.4"
+  }
+}
